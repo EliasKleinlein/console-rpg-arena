@@ -31,7 +31,7 @@ public class Mage : Character, IHealer
     }
     public void Heal(Character target)
     {
-        // Heal the target for a fixed amount of 15
+        // Heal the target for a fixed amount of 180 health
         int amount = 180;
 
         // Apply the healing; Heal keeps Health from exceeding MaxHealth
